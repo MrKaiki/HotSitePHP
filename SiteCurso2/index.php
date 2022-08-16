@@ -12,61 +12,10 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/checkout/">
     <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
-	<style>
-		.bd-placeholder-img {
-		  font-size: 1.125rem;
-		  text-anchor: middle;
-		  -webkit-user-select: none;
-		  -moz-user-select: none;
-		  user-select: none;
-		}
-  
-		@media (min-width: 768px) {
-		  .bd-placeholder-img-lg {
-			font-size: 3.5rem;
-		  }
-		}
-  
-		.b-example-divider {
-		  height: 3rem;
-		  background-color: rgba(0, 0, 0, .1);
-		  border: solid rgba(0, 0, 0, .15);
-		  border-width: 1px 0;
-		  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-		}
-  
-		.b-example-vr {
-		  flex-shrink: 0;
-		  width: 1.5rem;
-		  height: 100vh;
-		}
-  
-		.bi {
-		  vertical-align: -.125em;
-		  fill: currentColor;
-		}
-  
-		.nav-scroller {
-		  position: relative;
-		  z-index: 2;
-		  height: 2.75rem;
-		  overflow-y: hidden;
-		}
-  
-		.nav-scroller .nav {
-		  display: flex;
-		  flex-wrap: nowrap;
-		  padding-bottom: 1rem;
-		  margin-top: -1px;
-		  overflow-x: auto;
-		  text-align: center;
-		  white-space: nowrap;
-		  -webkit-overflow-scrolling: touch;
-		}
-	  </style>
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 	<body>
+		<!-- banner-AREA -->
 		<section class="banner-area" id="home">	
 			<div class="container">
 				<div class="row fullscreen d-flex align-items-center justify-content-center">																		
@@ -81,6 +30,7 @@
 			</div>
 		</section>
 
+		<!-- INFORMAÇÕES -->
 		<section class="service-area section-gap" id="vantagens">
 			<div class="container">
 				<div class="row d-flex justify-content-center">
@@ -126,16 +76,11 @@
 				</div>
 			</div>	
 		</section>
-			
+
+			<!-- FORMULARIO -->
 		<section class="service-area section-gap" id="vantagens">
 			<div class="container">
 				<div class="row d-flex justify-content-center">
-					<div class="col-md-8 pb-40 header-text">
-						
-						<div class="nav justify-content-center border-bottom pb-3 mb-3">
-
-						</div>
-					</div>
 					<div class="col-md-7 col-lg-8">
 						<h4 class="mb-3">Prencha formulario</h4>
 					<form action="cadastrado.php" method="post">
@@ -162,9 +107,7 @@
 				</div>
 		</section>
 
-		
-
-
+	    <!-- FOOTER -->
 		<div class="container">
 			<footer class="py-3 my-4">
 				<ul class="nav justify-content-center border-bottom pb-3 mb-3">
