@@ -1,0 +1,22 @@
+.single-service{
+    background-color: #f6f6f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform .4s;
+}
+
+.single-service h4{
+    text-align: center;
+    text-decoration: none;
+}
+
+.single-service p{
+    text-align: center;
+    text-decoration: none;
+}
+
+.single-service:hover {
+    border: 1px solid #472caa;
+    transform: scale(1.1);
+}

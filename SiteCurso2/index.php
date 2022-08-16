@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/checkout/">
     <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="style.css">
 	<style>
 		.bd-placeholder-img {
 		  font-size: 1.125rem;
@@ -94,7 +94,8 @@
 				<div class="row">
 					<div class="col-lg-4 col-md-6">
 						<div class="single-service">
-							<h4><span class="lnr lnr-cog"></span>Como Receber?</h4>
+							<h4><span class="lnr lnr-cog"></span>Como Receber? </h4>
+							<br>
 							<p>
 							Para receber nossa planilha de Invenstimentos da XP, basta completar as informações abaixo<br>
 							para que possamos lhe enviar ela por e-email!
@@ -104,6 +105,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="single-service">
 							<h4><span class="lnr lnr-pencil"></span>Quem somos?</h4>
+							<br>
 							<p>
 							Somos uma empresa focada em invenstimentos!<br>
 						Temos parceria com uma das maiores empresas de invenstimentos do <b>BRASIL</b> a XP invenstimentos <br>
@@ -114,7 +116,8 @@
 					</div>
 					<div class="col-lg-4 col-md-6">
 						<div class="single-service">
-							<h4><span class="lnr lnr-phone"></span>O que vai me ajudar?</h4>
+							<h4><span class="lnr lnr-phone"></span>O que vai lhe ajudar?</h4>
+							<br>
 							<p>
 							Nossa planilha vai auxiliar você em seus Invenstimentos e despesas
 							</p>								
