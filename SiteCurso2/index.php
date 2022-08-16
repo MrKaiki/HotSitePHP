@@ -97,7 +97,7 @@
 				
 							<div class="col-12">
 								<label for="email" class="form-label">Email <span class="text-muted"></span></label>
-								<input type="email" class="form-control" id="email" placeholder="you@example.com" name="email">
+								<input type="email" class="form-control" id="email" placeholder="you@example.com" required name="email">
 							</div>
 						</div>
 						<hr class="my-4">
